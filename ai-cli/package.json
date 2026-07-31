@@ -1,0 +1,21 @@
+{
+  "name": "ai-cli",
+  "version": "1.0.0",
+  "description": "This project is project for AI CLI.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "Dharmendra chauhan",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.15.0",
+    "axios": "^1.19.0",
+    "chalk": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "openai": "^7.2.0",
+    "ora": "^9.4.1"
+  }
+}
